@@ -1,55 +1,89 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual Power Ranger Você Seria ?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Você tem muitos amigos?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Sim", "alias":"A"},
+        {"id": 2, "name":"Não", "alias":"B"},
+        {"id": 3, "name":"Mais ou Menos", "alias":"C"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "As pessoas dizem que voçê é?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Charmoso(a)", "alias":"A"},
+        {"id": 2, "name":"Engraçado(a)", "alias":"B"},
+        {"id": 3, "name":"Impulsivo(a)", "alias":"C"},
+        {"id": 4, "name":"Gentil", "alias":"D"},
+        {"id": 5, "name":"Inteligente", "alias":"E"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Você se considera um lider?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Sim", "alias":"A"},
+        {"id": 2, "name":"Não", "alias":"C"},
+        {"id": 3, "name":"Mais ou Menos", "alias":"E"}
+
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual desses voçê escolheria?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Raio", "alias":"E"},
+        {"id": 2, "name":"Água", "alias":"B"},
+        {"id": 3, "name":"Fogo", "alias":"A"},
+        {"id": 4, "name":"Terra", "alias":"C"},
+        {"id": 5, "name":"Vento", "alias":"D"}
+
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual seria seu zord?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"O Garuda", "alias":"E"},
+        {"id": 2, "name":"A Sereia", "alias":"B"},
+        {"id": 3, "name":"A Fênix", "alias":"A"},
+        {"id": 4, "name":"O Minotauro", "alias":"C"},
+        {"id": 5, "name":"A Fada", "alias":"D"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Escolha uma dessas cores?",
+      "options":[
+        {"id": 1, "name": "Azul", "alias":"B"},
+        {"id": 2, "name":"Amarelo", "alias":"E"},
+        {"id": 3, "name":"Rosa", "alias":"D"},
+        {"id": 4, "name":"Vermelho", "alias":"A"},
+        {"id": 5, "name":"Preto", "alias":"C"}
+
+      ]
+    },
+    {
+      "id":7,
+      "question": "Qual temporada mais gostou?",
+      "options":[
+        {"id": 1, "name": "Power Ranger: SPD", "alias":"B"},
+        {"id": 2, "name":"Power Rangers: Dino Trovão", "alias":"E"},
+        {"id": 3, "name":"Mighty Morphin Power Rangers", "alias":"D"},
+        {"id": 4, "name":"Power Rangers: Força Mística", "alias":"A"},
+        {"id": 5, "name":"Power Rangers: Aço Ninja", "alias":"C"}
+
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Power Ranger Vermelho:  Você tem o perfil de lider, bem apessoado e de bom coração!",
+    "B": "Power Renger Azul:  Você é bem humorado e otimista!",
+    "C": "Power Ranger Preto: Você é impulsivo que toma atitudes no calor do momento!",
+    "D": "Power Ranger Rosa:  Você é doce mais ao mesmo tempo radical e rebelde!",
+    "E": "Power Ranger Amarelo:  Você é solitária, auto suficiente, contemplativa e sempre atenta!"
   }
 }
